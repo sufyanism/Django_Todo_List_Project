@@ -31,8 +31,8 @@ To verify that Django has been installed correctly, run the following command (d
 `django-admin startapp myfirstapplication`
 
 # To migrate all the updation
-`python manage.py makemigrations`
-`python manage.py migrate`
+-- `python manage.py makemigrations`
+-- `python manage.py migrate`
 
 # To run the project
 `python manage.py runserver`
