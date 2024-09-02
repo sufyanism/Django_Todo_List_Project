@@ -15,8 +15,8 @@ If Python and pip are not installed, download and install Python from the offici
 
 # Install Django (In Scripts folder)
 `pip install django`
-To verify that Django has been installed correctly, run the following command (django-admin --version)
-- navigate  outside the myenv and run the below command
+To verify that Django has been installed correctly, run the following command `django-admin --version`
+navigate  outside the myenv and run the below command
 
 # Create a Django Project
 `django-admin startproject myproject`
@@ -31,8 +31,8 @@ To verify that Django has been installed correctly, run the following command (d
 `django-admin startapp myfirstapplication`
 
 # To migrate all the updation
--- `python manage.py makemigrations`
--- `python manage.py migrate`
+`python manage.py makemigrations`
+`python manage.py migrate`
 
 # To run the project
 `python manage.py runserver`
