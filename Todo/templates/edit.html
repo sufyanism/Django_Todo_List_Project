@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<form method="POST" >
+    {% csrf_token %}
+Update your Data:
+<input type="text" name="todo" value="{{todo.0.todos}}" >
+    <br>
+    <button class="btn btn--primary">Save</button>
+</form>
+
+{% endblock %}

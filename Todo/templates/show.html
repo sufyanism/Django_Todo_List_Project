@@ -1,0 +1,35 @@
+{%extends 'base.html'%}
+
+{% block content %}
+
+<div class="user">
+    <div class="user-name">
+        <em>{{A_USER}}</em>
+    </div>
+    <div class="user-logout">
+        <a class="links" href="{% url 'logout' %}">Logout</a>
+    </div> 
+</div>
+
+    <form method="POST" >
+        {% csrf_token %}
+        <input class="form__field" type="text"name="todo" placeholder="Add Something"><br>
+        <button class="btn btn--primary">Save</button>
+    </form>
+
+    <table class="content">
+        <tr>
+            <th>Todo Name</th>
+            <th>Delete</th>
+            <th>Edit</th>
+        </tr>
+        {% for item in get_item %}
+        <tr>
+            <td>{{item.todos}}</td> 
+             <td><a class="links" href="{% url 'delete' item.id %}">Delete</a></td>
+             <td><a class="links" href="{% url 'edit' item.id %}">Edit</a> </td>   
+        </tr>
+        {% endfor %}
+
+    </table>
+{% endblock %}
