@@ -10,6 +10,8 @@ If Python and pip are not installed, download and install Python from the offici
 ## Create a Virtual Environment
 `python -m venv myenv`
 
+</br>
+
 ## Activate the virtual environment:
 `myenv\Scripts\activate`
 
@@ -18,40 +20,52 @@ If Python and pip are not installed, download and install Python from the offici
 To verify that Django has been installed correctly, run the following command `django-admin --version`
 navigate  outside the myenv and run the below command
 
-## Create a Django Project
+### Create a Django Project
 `django-admin startproject myproject`
 
-## Install Django:
+### Install Django:
 `pip install django`
 
-## Verify Django installation:
+### Verify Django installation:
 `django-admin --version`
 
-## Create a Application inside the myproject folder:
+### Create a Application inside the myproject folder:
 `django-admin startapp myfirstapplication`
 
-## To migrate all the updation
+### To migrate all the updation
 `python manage.py makemigrations`
 `python manage.py migrate`
 
-## To run the project
+### To run the project
 `python manage.py runserver`
 
-## Features
+# Features
 You can get an idea how to make Todo List Application.
 
-## Screencast
+## Demo
 https://github.com/user-attachments/assets/19060e3c-dbdc-4626-87b2-83ae1ce820e1
 
-## Screenshots
-
-1
 ![Todo List](https://github.com/user-attachments/assets/6aafc649-ee88-4d97-be67-23a51cd6cf60)
-2
+
 ![Register Page](https://github.com/user-attachments/assets/bf4f95d0-c301-4a56-a0b5-a340e798fa02)
-3
+
 ![Login page](https://github.com/user-attachments/assets/1fb6fbc3-1f66-43fd-a7c6-62e69ca7a4b9)
 
+
+## About Me 
+✨ I’m **Sufyan bin Uzayr**, an open-source developer passionate about building and sharing meaningful projects.
+You can learn more about me and my work at [sufyanism.com](https://sufyanism.com/) or connect with me on [Linkedin](https://www.linkedin.com/in/sufyanism)
+
+## Your all-in-one learning hub! 
+🚀 Explore courses and resources in coding, tech, and development at **zeba.academy** and **code.zeba.academy**. Empower yourself with practical skills through curated tutorials, real-world projects, and hands-on experience. Level up your tech game today! 💻✨
+
+**Zeba Academy**  is a learning platform dedicated to **coding**, **technology**, and **development**.  
+➡ Visit our main site: [zeba.academy](https://zeba.academy)   </br>
+➡ Explore hands-on courses and resources at: [code.zeba.academy](https://code.zeba.academy)   </br>
+➡ Check out our YouTube for more tutorials: [zeba.academy](https://www.youtube.com/@zeba.academy)  </br>
+➡ Follow us on Instagram: [zeba.academy](https://www.instagram.com/zeba.academy/)  </br>
+
+**Thank you for visiting!** 
 
 
 
