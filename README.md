@@ -2,9 +2,9 @@
 Django-Todolist is a web todo list with the most basic functionality of most web applications, such as the CURD function, an API and (somewhat) interactive UI, and a javascript version of the application that uses the API.
 
 ## Install Python and pip
-Ensure that Python and pip are installed on your system by running the following commands in your terminal.
-`python --version`
-`pip --version`
+Ensure that Python and pip are installed on your system by running the following commands in your terminal. <br/>
+`python --version` <br/>
+`pip --version` <br/>
 If Python and pip are not installed, download and install Python from the official Python website (https://www.python.org/downloads/)
 
 ## Create a Virtual Environment
