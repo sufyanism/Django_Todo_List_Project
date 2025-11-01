@@ -10,8 +10,6 @@ If Python and pip are not installed, download and install Python from the offici
 ## Create a Virtual Environment
 `python -m venv myenv`
 
-</br>
-
 ## Activate the virtual environment:
 `myenv\Scripts\activate`
 
